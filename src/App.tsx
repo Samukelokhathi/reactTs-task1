@@ -1,14 +1,13 @@
 import "./App.css";
 
 function App() {
-  return (
-    <>
-      <div className="">
-        <h1>Hello my name is sam</h1>
-        <h2 className="">Testing deployment</h2>
-      </div>
-    </>
-  );
+  let num = 1;
+  console.log(num);
+  const string = 247;
+  console.log(string);
+
+  // let number: number = 5;
+  // console.log(number);
 }
 
 export default App;
