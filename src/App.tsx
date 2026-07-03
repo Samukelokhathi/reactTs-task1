@@ -1,13 +1,13 @@
-import "./App.css";
+import React from "react";
+import { Text } from "./components/Text/Text.tsx";
 
-function App() {
-  let num = 1;
-  console.log(num);
-  const string = 247;
-  console.log(string);
-
-  // let number: number = 5;
-  // console.log(number);
+export default function App() {
+  return (
+    <div>
+      <Text variant="h1">Hello</Text>
+      <Text variant="h2">Hello</Text>
+      <Text variant="p">Hello</Text>
+      <Text variant="span">Hello</Text>
+    </div>
+  );
 }
-
-export default App;
