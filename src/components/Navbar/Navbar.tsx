@@ -5,20 +5,25 @@ export default function Navbar() {
   return (
     <nav>
       <div className="{style.content}">
-        <Text variant={"h2"}>Sam</Text>
+        <img
+          src="src/assets/Logo Image.jpg"
+          alt="logoImage"
+          height={40}
+          width={40}
+        />
         <div className={styles.links}>
           <a href="/#" className={styles.link}>
-            Shop Online
+            <Text variant={"p"}>Shop Online</Text>
           </a>
           <a href="/#" className={styles.link}>
-            Find in Store
+            <Text variant={"p"}>Find in Store</Text>
           </a>
           <a href="/#" className={styles.link}>
-            Learn More
+            <Text variant={"p"}>Learn More</Text>
           </a>
         </div>
         <div>
-          <button>Subtribe</button>
+          <button>Subscribe</button>
         </div>
       </div>
     </nav>
