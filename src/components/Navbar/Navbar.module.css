@@ -1,0 +1,38 @@
+
+nav {
+    position: fixed;
+    top: 0;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    width:100vw;
+    border-bottom: 1px solid rgb(177, 177, 177);
+    /* margin-left: 10px; */
+}
+
+.content{
+    max-width: 1200px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(27,70,60) ;
+    padding: 5px 30px;
+    
+}
+
+.subContainer {
+    margin-right: 30px;
+}
+
+.subContainer button{
+    padding: 7px  20px 7px 20px ;
+    border-radius: 14px;
+    color: white;
+    background: rgb(27,70,60);
+    border: none;
+}
