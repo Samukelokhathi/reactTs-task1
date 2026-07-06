@@ -1,10 +1,10 @@
 // import { Text } from "../Text/Text";
-import styles from "./Navbar.module.css";
+import navStyle from "./Navbar.module.css";
 
 export default function Navbar() {
   return (
     <nav>
-      <div className={styles.logo}>
+      <div className={navStyle.logo}>
         <img
           src="src/assets/Logo Image.jpg"
           alt="logo"
@@ -12,7 +12,7 @@ export default function Navbar() {
           width={40}
         />
       </div>
-      <ul className={styles.navLinks}>
+      <ul className={navStyle.navLinks}>
         <li>
           <a href="#">Shop Online</a>
         </li>
@@ -23,8 +23,8 @@ export default function Navbar() {
           <a href="#">Learn More</a>
         </li>
       </ul>
-      <div className={styles.btns}>
-        <button className={styles.btn}>Subscribe</button>
+      <div className={navStyle.btns}>
+        <button className={navStyle.btn}>Subscribe</button>
       </div>
     </nav>
   );

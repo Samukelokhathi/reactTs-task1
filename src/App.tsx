@@ -1,6 +1,5 @@
-// import { Text } from "./components/Text/Text.tsx";
 import Navbar from "./components/Navbar/Navbar.tsx";
-import Hero from "./components/Hero/Hero.tsx";
+import Hero from "./pages/Hero/Hero.tsx";
 
 export default function App() {
   return (
