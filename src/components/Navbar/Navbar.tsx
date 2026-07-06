@@ -5,7 +5,12 @@ export default function Navbar() {
   return (
     <nav>
       <div className={styles.logo}>
-        <img src="src/assets/Logo Image.jpg" alt="logo" />
+        <img
+          src="src/assets/Logo Image.jpg"
+          alt="logo"
+          height={40}
+          width={40}
+        />
       </div>
       <ul className={styles.navLinks}>
         <li>

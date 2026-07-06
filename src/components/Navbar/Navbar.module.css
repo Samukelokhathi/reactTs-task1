@@ -1,42 +1,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", "sans-serif";
+    background: rgb(233,191,175);
+    color: rgb(27,70,60) ;
+}
 
 nav {
-    position: fixed;
-    top: 0;
-    height: 60px;
-    background-color: rgb(255, 255, 255);
-    width:100vw;
-    border-bottom: 1px solid rgb(177, 177, 177, 0.5);
+    width: 100%;
+    padding: 1rem 5%;
+    background: white;
+    backdrop-filter: blur(15px);
+    margin-bottom:2rem ;
+
 }
 
-.content{
-    max-width: 1200px;
-    margin: auto;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.link {
-    text-decoration: none;
-    color: rgb(27,70,60) ;
-    padding: 5px 30px;
-    font-weight: bold;
-    
-    
-}
-
-.subContainer {
-    margin-right: 30px;
-}
-
-.subContainer button{
-    padding: 7px  20px 7px 20px ;
-    border-radius: 14px;
-    color: white;
-    background: rgb(27,70,60);
-    border: none;
-}
