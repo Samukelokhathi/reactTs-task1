@@ -17,10 +17,10 @@ export default function Navbar() {
           <a href="#">Shop Online</a>
         </li>
         <li>
-          <a href="#"></a>Find in Store
+          <a href="#">Find in Store</a>
         </li>
         <li>
-          <a href="#"></a>Learn More
+          <a href="#">Learn More</a>
         </li>
       </ul>
       <div className={styles.btns}>

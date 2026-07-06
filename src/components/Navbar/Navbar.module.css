@@ -34,4 +34,10 @@ nav {
     font-weight: 500;
     text-decoration: none;
     color:rgb(27,70,60) ;
+    transition: 0.3s;
+}
+
+.navLinks li a:hover{
+    color: rgb(8, 160, 23);
+    text-shadow: 0 0 10px rgb(8, 160, 23) ;
 }
