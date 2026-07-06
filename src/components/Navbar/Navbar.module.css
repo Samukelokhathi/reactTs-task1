@@ -22,3 +22,16 @@ nav {
 
 }
 
+.navLinks{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.navLinks li a {
+    position: relative;
+    font-size: 1.05rem;
+    font-weight: 500;
+    text-decoration: none;
+    color:rgb(27,70,60) ;
+}
