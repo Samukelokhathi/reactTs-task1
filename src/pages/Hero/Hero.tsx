@@ -8,7 +8,7 @@ export default function Hero() {
           <h1>A new kind \n of Soda</h1>
         </div>
         <div className={heroStyle.imageContainer}>
-          <img src="src/assets/heroImage.jpg" alt="" width={400} height={400} />
+          <img src="src/assets/heroImage.jpg" alt="heroImage" />
         </div>
       </section>
     </>
