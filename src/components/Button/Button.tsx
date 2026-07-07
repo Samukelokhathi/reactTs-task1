@@ -1,11 +1,16 @@
-// // import React from "react";
-// import btnCss from "./Button.css";
+import btnCss from "./Button.css";
 
-// export default function Button() {
-//   return (
-//     <div>
-//       {" "}
-//       <button></button>
-//     </div>
-//   );
-// }
+type BtnProps = {
+  text: String;
+  style?: React.CSSProperties;
+};
+
+const Button: React.FC<BtnProps> = ({ text, style }) => {
+  return (
+    <div>
+      <button style={style}>{text}</button>
+    </div>
+  );
+};
+
+export default Button;
