@@ -1,14 +1,12 @@
 section{
     display: flex;
-    width: 100%;
     background-color: rgb(233,191,175);
-    padding: 2rem 6rem ;
-    height: 50%;
-    justify-content: center;
     align-items: center;
-    gap: 10%;
+    padding-top:40px ;
+    padding-bottom: 40px;
+    gap: 89px;
+    
 }
-
 
 
 .heroContent{
@@ -17,7 +15,6 @@ section{
 }
 
 .imageContainer{
-    background-color: black;
     width: 350px;
     height: 350px;
     border-radius: 50%;
@@ -34,6 +31,5 @@ section{
     object-fit: cover;
     border-radius: inherit;
     position: absolute;
-    top: 0;
-    left: 0;
+    
 }

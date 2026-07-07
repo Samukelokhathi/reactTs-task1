@@ -1,11 +1,12 @@
 import Navbar from "./components/Navbar/Navbar.tsx";
-import Hero from "./pages/Hero/Hero.tsx";
+import "./App.css";
+import Main from "./components/Main/Main.tsx";
 
 export default function App() {
   return (
     <div>
       <Navbar />
-      <Hero />
+      <Main />
     </div>
   );
 }
