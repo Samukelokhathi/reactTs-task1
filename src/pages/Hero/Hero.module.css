@@ -1,3 +1,19 @@
 section{
     display: flex;
+    width: 100%;
+    background-color: rgb(233,191,175);
+    padding-top: 2rem;
+    height: 30%;
+}
+
+section > div {
+    flex: 1;
+}
+
+.heroContent{
+    /* background-color: aquamarine; */
+}
+
+.imageContainer{
+     /* background-color: blue; */
 }

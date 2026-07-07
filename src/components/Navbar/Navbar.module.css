@@ -9,7 +9,7 @@
 
 body {
     font-family: "Poppins", "sans-serif";
-    background: rgb(233,191,175);
+    /* background: rgb(233,191,175); */
     color: rgb(27,70,60) ;
 }
 
@@ -18,7 +18,7 @@ nav {
     padding: 1rem 9%;
     background: white;
     backdrop-filter: blur(15px);
-    margin-bottom:2rem ;
+    /* margin-bottom:2rem ; */
     border-bottom: 1px solid rgb(139, 139, 139);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
 
