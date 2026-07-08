@@ -4,7 +4,7 @@ import IngredientCard from "../../pages/IngredientCard/IngredientCard";
 
 export default function Main() {
   return (
-    <div className={mainStyle.body}>
+    <div className={mainStyle.mainContent}>
       <Hero></Hero>
       <IngredientCard />
     </div>

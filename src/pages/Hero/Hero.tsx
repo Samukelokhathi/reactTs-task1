@@ -4,7 +4,7 @@ import heroStyle from "./Hero.module.css";
 export default function Hero() {
   return (
     <>
-      <section>
+      <section className={heroStyle.heroSection}>
         <div className={heroStyle.heroContent}>
           <h1>
             A new kind <br /> of Soda <span className="tm-symbol">™</span>
