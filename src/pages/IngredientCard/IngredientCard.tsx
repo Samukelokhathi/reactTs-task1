@@ -1,3 +1,7 @@
+import CardStyle from "../IngredientCard/IngredientCard.module.css";
+import { Text } from "../../components/Text/Text";
+import Button from "../../components/Button/Button";
+
 export default function IngredientCard() {
   return (
     <>
@@ -6,15 +10,15 @@ export default function IngredientCard() {
           <img src="src/assets/IngredientCardImage.jpg" alt="" />
         </div>
 
-        <div>
-          <h1>Testing Testing</h1>
-          <p>
+        <div className={CardStyle.content}>
+          <Text variant={"h1"}>Testing Testing!</Text>
+          <Text variant={"p"}>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus
             magni rem eveniet molestias quod ipsum velit quo, sint maxime esse
             quibusdam blanditiis asperiores dolor earum expedita vero deserunt
             veritatis delectus.
-          </p>
-          <button>btn</button>
+          </Text>
+          <Button className={""} text="Read More" />
         </div>
       </section>
     </>
