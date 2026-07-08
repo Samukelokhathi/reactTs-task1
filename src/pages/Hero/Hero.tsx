@@ -11,16 +11,7 @@ export default function Hero() {
           </h1>
 
           <div>
-            <Button text="Click Me" />
-
-            <Button
-              text="Styled Button"
-              style={{
-                backgroundColor: "blue",
-                color: "white",
-                padding: "10px",
-              }}
-            />
+            <Button className={heroStyle["heroBtn"]} text="Styled Button" />
           </div>
         </div>
         <div className={heroStyle.imageContainer}>
