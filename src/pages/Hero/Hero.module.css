@@ -2,18 +2,23 @@ section{
     display: flex;
     background-color: rgb(233,191,175);
     align-items: center;
-    padding-top:40px ;
-    padding-bottom: 40px;
+    padding: 40px 15rem 40px 15rem;
     gap: 89px;
     width: 70%;
+    justify-content: space-between;
     
 }
 
 
 .heroContent{
-    /* background-color: aquamarine; */
+    gap: 10;
     
 }
+
+.heroContent h1{
+    margin-bottom: 1rem;
+}
+
 
 .imageContainer{
     width: 350px;

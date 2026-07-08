@@ -7,11 +7,11 @@ export default function Hero() {
       <section>
         <div className={heroStyle.heroContent}>
           <h1>
-            A new kind \n of Soda <span className="tm-symbol">™</span>
+            A new kind <br /> of Soda <span className="tm-symbol">™</span>
           </h1>
 
           <div>
-            <Button className={heroStyle.heroBtn} text="Styled Button" />
+            <Button className={""} text="Styled Button" />
           </div>
         </div>
         <div className={heroStyle.imageContainer}>
