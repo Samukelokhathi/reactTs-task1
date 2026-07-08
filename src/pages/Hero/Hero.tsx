@@ -11,7 +11,7 @@ export default function Hero() {
           </h1>
 
           <div>
-            <Button className={heroStyle["heroBtn"]} text="Styled Button" />
+            <Button className={heroStyle.heroBtn} text="Styled Button" />
           </div>
         </div>
         <div className={heroStyle.imageContainer}>

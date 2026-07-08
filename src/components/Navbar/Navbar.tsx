@@ -1,5 +1,6 @@
 // import { Text } from "../Text/Text";
 import navStyle from "./Navbar.module.css";
+import Button from "../Button/Button";
 
 export default function Navbar() {
   return (
@@ -24,7 +25,7 @@ export default function Navbar() {
         </li>
       </ul>
       <div className={navStyle.btns}>
-        <button className={navStyle.btn}>Subscribe</button>
+        <Button text="Subscribe" />
       </div>
     </nav>
   );
