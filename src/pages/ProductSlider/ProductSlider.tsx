@@ -17,9 +17,24 @@ export default function ProductSlider() {
 
   return (
     <section className={sliderCss.sliderSection}>
-      <div>
+      <div className={sliderCss.heading}>
         <Text variant={"h1"} children={"Product Slider Header"} />
         <Text variant={"p"} children={"Hello world my name is sam"} />
+      </div>
+
+      <div className={sliderCss.cardContainer}>
+        {stock &&
+          stock.length > 0 &&
+          stock.map((product) => {
+            return (
+              <ProductCard
+                imgLink={product.imgLink}
+                btnText={product.btnText}
+                description={product.description}
+                name={product.name}
+              />
+            );
+          })}
       </div>
     </section>
   );
