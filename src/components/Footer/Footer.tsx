@@ -6,7 +6,7 @@ import Button from "../Button/Button";
 export default function Footer() {
   return (
     <section>
-      <div>
+      <div className={footerStyle.footerContent}>
         <div>
           <img src="" alt="" />
           <Text variant={"h1"} children={"Stay connected"} />
@@ -18,7 +18,7 @@ export default function Footer() {
           <Text variant={"P"} children={"jfdhsgjkhsdkh"} />
         </div>
         <div>
-          <Text variant={"h3"} children={"FLAVOURS"} />
+          <Text variant={"h3"} children={"INFORMATION"} />
           <ul>
             <li>About Us</li>
             <li>Contact Us</li>
@@ -29,7 +29,7 @@ export default function Footer() {
           <Text variant={"P"} children={"jfdhsgjkhsdkh"} />
         </div>
         <div>
-          <Text variant={"h3"} children={"FLAVOURS"} />
+          <Text variant={"h3"} children={"SOCIAL MEDIA"} />
           <ul>
             <li>i</li>
             <li>f</li>
