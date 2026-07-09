@@ -1,0 +1,9 @@
+
+.item-card {
+    border-radius: 8px;
+    background-color: wheat;
+    padding: 12px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
