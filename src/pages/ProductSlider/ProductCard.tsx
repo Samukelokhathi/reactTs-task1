@@ -16,8 +16,12 @@ export default function ProductCard({
   description,
 }: ItemCardProps) {
   return (
-    <article>
-      <img className={cardStyle["item-card"]} src={imgLink} alt={description} />
+    <article className={cardStyle["item-card"]}>
+      <img
+        className={cardStyle["item-image"]}
+        src={imgLink}
+        alt={description}
+      />
       <Text variant={"span"} children={name} />
       <Button text={btnText} />
     </article>

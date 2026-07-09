@@ -1,9 +1,26 @@
 
+.cardContainer{
+    display: flex;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 .item-card {
     border-radius: 8px;
     background-color: wheat;
     padding: 12px;
-    width: 200px;
+    width: 300px;
     display: flex;
     flex-direction: column;
+}
+
+.item-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
 }
