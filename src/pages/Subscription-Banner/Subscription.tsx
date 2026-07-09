@@ -1,11 +1,11 @@
 import Button from "../../components/Button/Button";
 import { Text } from "../../components/Text/Text";
-import subStyle from "../Subscription-Banner/Subscription.module.css";
+import subStyle from "./Subscription.module.css";
 
 export default function Subscription() {
   return (
     <section className={subStyle.subSection}>
-      <div>
+      <div className={subStyle.subContent}>
         <Text variant={"h1"} children={"Subscription Heading"} />
         <Text
           variant={"p"}
