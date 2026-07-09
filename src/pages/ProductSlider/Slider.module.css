@@ -1,6 +1,7 @@
 
 .cardContainer{
     display: flex;
+    gap: 5px;
 }
 
 .heading{
@@ -11,10 +12,10 @@
 
 
 .item-card {
-    border-radius: 8px;
+    border-radius: 14px;
     background-color: wheat;
     padding: 12px;
-    width: 300px;
+    width: 250px;
     display: flex;
     flex-direction: column;
 }
