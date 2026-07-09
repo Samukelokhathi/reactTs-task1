@@ -1,3 +1,20 @@
+import Button from "../../components/Button/Button";
+import { Text } from "../../components/Text/Text";
+import subStyle from "../Subscription-Banner/Subscription.module.css";
+
 export default function Subscription() {
-  return <div>Subscription</div>;
+  return (
+    <section className={subStyle.subSection}>
+      <div>
+        <Text variant={"h1"} children={"Subscription Heading"} />
+        <Text
+          variant={"p"}
+          children={
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem libero suscipit perferendis, voluptates incidunt dolore enim, repellat autem porro maxime necessitatibus nisi. Recusandae numquam dolor voluptate officiis minus odio reprehenderit?"
+          }
+        />
+        <Button text={"Subscription & Save"} />
+      </div>
+    </section>
+  );
 }
