@@ -1,4 +1,3 @@
-import React from "react";
 import footerStyle from "./Footer.module.css";
 import { Text } from "../Text/Text";
 import Button from "../Button/Button";
