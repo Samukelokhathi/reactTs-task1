@@ -11,23 +11,25 @@ export default function Benefits() {
   return (
     <section className={benefitStyle.benefitSection}>
       <div>
-        <div>
-          <img
-            src={dollarSignIcon}
-            alt="dollar sign icon"
-            className={benefitStyle.icon}
-          />
+        <div className={benefitStyle["icon-img-div"]}>
+          <div className={benefitStyle["icon-div"]}>
+            <img
+              src={dollarSignIcon}
+              alt="dollar sign icon"
+              className={benefitStyle.icon}
+            />
+          </div>
           <Text variant={"p"} children={"Save 15% every order"} />
         </div>
 
-        <div>
+        <div className={benefitStyle["icon-div"]}>
           <img
             src={drinkingIcon}
             alt="dollar sign icon"
             className={benefitStyle.icon}
           />
-          <Text variant={"p"} children={"Save 15% every order"} />
         </div>
+        <Text variant={"p"} children={"Save 15% every order"} />
       </div>
 
       <div>
@@ -40,22 +42,22 @@ export default function Benefits() {
         />
       </div>
       <div>
-        <div>
+        <div className={benefitStyle["icon-div"]}>
           <img
             src={lorryIcon}
             alt="dollar sign icon"
             className={benefitStyle.icon}
           />
-          <Text variant={"p"} children={"Save 15% every order"} />
         </div>
-        <div>
+        <Text variant={"p"} children={"Save 15% every order"} />
+        <div className={benefitStyle["icon-div"]}>
           <img
             src={removeIcon}
             alt="dollar sign icon"
             className={benefitStyle.icon}
           />
-          <Text variant={"p"} children={"Save 15% every order"} />
         </div>
+        <Text variant={"p"} children={"Save 15% every order"} />
       </div>
     </section>
   );

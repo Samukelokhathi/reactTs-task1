@@ -5,10 +5,23 @@
 }
 
 
+.icon-div{
+    background-color: rgb(250,198,68);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
 
+.icon-img-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 .icon{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .centerImg{
