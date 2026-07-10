@@ -43,23 +43,27 @@ export default function Benefits() {
           className={benefitStyle.centerImg}
         />
       </div>
-      <div>
-        <div className={benefitStyle["icon-div"]}>
-          <img
-            src={lorryIcon}
-            alt="dollar sign icon"
-            className={benefitStyle.icon}
-          />
+      <div className={benefitStyle["icon-img-container"]}>
+        <div className={benefitStyle["icon-img-div"]}>
+          <div className={benefitStyle["icon-div"]}>
+            <img
+              src={lorryIcon}
+              alt="dollar sign icon"
+              className={benefitStyle.icon}
+            />
+          </div>
+          <Text variant={"p"} children={"Save 15% every order"} />
         </div>
-        <Text variant={"p"} children={"Save 15% every order"} />
-        <div className={benefitStyle["icon-div"]}>
-          <img
-            src={removeIcon}
-            alt="dollar sign icon"
-            className={benefitStyle.icon}
-          />
+        <div className={benefitStyle["icon-img-div"]}>
+          <div className={benefitStyle["icon-div"]}>
+            <img
+              src={removeIcon}
+              alt="dollar sign icon"
+              className={benefitStyle.icon}
+            />
+          </div>
+          <Text variant={"p"} children={"Save 15% every order"} />
         </div>
-        <Text variant={"p"} children={"Save 15% every order"} />
       </div>
     </section>
   );
