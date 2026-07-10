@@ -3,7 +3,7 @@ import { Text } from "../../components/Text/Text";
 
 export default function Benefits() {
   return (
-    <section>
+    <section className={benefitStyle.benefitSection}>
       <div>
         <div>
           <i>icon</i>
