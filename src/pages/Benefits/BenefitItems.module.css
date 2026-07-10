@@ -1,3 +1,18 @@
 .benefitSection {
     background-color: rgb(250,241,210);
+    display: flex;
+    gap: 5rem;
+}
+
+
+
+.icon{
+    width: 40px;
+    height: 40px;
+}
+
+.centerImg{
+    margin-bottom: 90px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 0px rgba(0.5, 0.5, 0.5, 0.5);
 }

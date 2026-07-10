@@ -1,29 +1,59 @@
 import benefitStyle from "./BenefitItems.module.css";
 import { Text } from "../../components/Text/Text";
 
+import dollarSignIcon from "./Benefit-Icons-image/coin.png";
+import drinkingIcon from "./Benefit-Icons-image/drinking.png";
+import centerImg from "./Benefit-Icons-image/center Image.jpg";
+import lorryIcon from "./Benefit-Icons-image/lorry.png";
+import removeIcon from "./Benefit-Icons-image/remove.png";
+
 export default function Benefits() {
   return (
     <section className={benefitStyle.benefitSection}>
       <div>
         <div>
-          <i>icon</i>
+          <img
+            src={dollarSignIcon}
+            alt="dollar sign icon"
+            className={benefitStyle.icon}
+          />
           <Text variant={"p"} children={"Save 15% every order"} />
         </div>
+
         <div>
-          <i>icon</i>
+          <img
+            src={drinkingIcon}
+            alt="dollar sign icon"
+            className={benefitStyle.icon}
+          />
           <Text variant={"p"} children={"Save 15% every order"} />
         </div>
       </div>
+
       <div>
-        <img src="" alt="" />
+        <img
+          src={centerImg}
+          alt="juice Image"
+          width={"250px"}
+          height={"300px"}
+          className={benefitStyle.centerImg}
+        />
       </div>
       <div>
         <div>
-          <i>icon</i>
+          <img
+            src={lorryIcon}
+            alt="dollar sign icon"
+            className={benefitStyle.icon}
+          />
           <Text variant={"p"} children={"Save 15% every order"} />
         </div>
         <div>
-          <i>icon</i>
+          <img
+            src={removeIcon}
+            alt="dollar sign icon"
+            className={benefitStyle.icon}
+          />
           <Text variant={"p"} children={"Save 15% every order"} />
         </div>
       </div>
