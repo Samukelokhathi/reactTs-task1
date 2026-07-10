@@ -6,6 +6,8 @@ box-sizing: border-box;
 
 section{
     padding: 40px 15rem 40px 15rem;
+    margin-bottom: 60px ;
+    margin-top: 60px;
 }
 
 html, body, #root {

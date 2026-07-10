@@ -2,6 +2,8 @@
     background-color: rgb(250,241,210);
     display: flex;
     gap: 5rem;
+    height: 210px;
+    margin-bottom: 50px;
 }
 
 .icon-img-container{
@@ -10,7 +12,7 @@
     height: 150px;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-evenly */
+    justify-content: space-evenly
 }
 
 .icon-div{
@@ -32,8 +34,12 @@
     height: 30px;
 }
 
+.center-img-div{
+    margin-bottom: 100px;
+    height: 500px;
+}
+
 .centerImg{
-    margin-bottom: 90px;
     border-radius: 10px;
     box-shadow: 10px 10px 20px 0px rgba(0.5, 0.5, 0.5, 0.5);
 }

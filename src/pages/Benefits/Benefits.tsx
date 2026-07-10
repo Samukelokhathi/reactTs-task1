@@ -34,12 +34,13 @@ export default function Benefits() {
         </div>
       </div>
 
-      <div>
+      <div className={benefitStyle["center-img-div"]}>
         <img
           src={centerImg}
           alt="juice Image"
           width={"250px"}
           height={"300px"}
+          style={{ marginBottom: "150px" }}
           className={benefitStyle.centerImg}
         />
       </div>
