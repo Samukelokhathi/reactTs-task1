@@ -10,7 +10,7 @@ import removeIcon from "./Benefit-Icons-image/remove.png";
 export default function Benefits() {
   return (
     <section className={benefitStyle.benefitSection}>
-      <div>
+      <div className={benefitStyle["icon-img-container"]}>
         <div className={benefitStyle["icon-img-div"]}>
           <div className={benefitStyle["icon-div"]}>
             <img
@@ -22,14 +22,16 @@ export default function Benefits() {
           <Text variant={"p"} children={"Save 15% every order"} />
         </div>
 
-        <div className={benefitStyle["icon-div"]}>
-          <img
-            src={drinkingIcon}
-            alt="dollar sign icon"
-            className={benefitStyle.icon}
-          />
+        <div className={benefitStyle["icon-img-div"]}>
+          <div className={benefitStyle["icon-div"]}>
+            <img
+              src={drinkingIcon}
+              alt="dollar sign icon"
+              className={benefitStyle.icon}
+            />
+          </div>
+          <Text variant={"p"} children={"Save 15% every order"} />
         </div>
-        <Text variant={"p"} children={"Save 15% every order"} />
       </div>
 
       <div>

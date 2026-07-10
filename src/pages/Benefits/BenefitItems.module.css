@@ -4,6 +4,14 @@
     gap: 5rem;
 }
 
+.icon-img-container{
+    gap: 2rem;
+    /* background-color: black; */
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly */
+}
 
 .icon-div{
     background-color: rgb(250,198,68);
