@@ -20,7 +20,7 @@ export default function ProductSlider() {
       btnColor: "rgb(225,182,7)",
     },
     {
-      name: "Orang Squeeze",
+      name: "Orange Squeeze",
       imgLink: img2,
       description: "Image no.2",
       btnText: "$34.99",

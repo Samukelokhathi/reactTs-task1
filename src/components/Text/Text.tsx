@@ -1,4 +1,5 @@
 import React from "react";
+import textStyle from "./Text.module.css";
 
 type Props = {
   variant?: String;
