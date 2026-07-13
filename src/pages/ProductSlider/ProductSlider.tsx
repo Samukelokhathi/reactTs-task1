@@ -11,10 +11,34 @@ import img4 from "../../pages/ProductSlider/Asset/image-4.jpg";
 export default function ProductSlider() {
   // const [count, setCount] = useState(0);
   const [stock] = useState([
-    { name: "sam", imgLink: img1, description: "Image no.1", btnText: "btn1" },
-    { name: "img2", imgLink: img2, description: "Image no.2", btnText: "btn2" },
-    { name: "img3", imgLink: img3, description: "Image no.3", btnText: "btn3" },
-    { name: "img4", imgLink: img4, description: "Image no.4", btnText: "btn4" },
+    {
+      name: "sam",
+      imgLink: img1,
+      description: "Image no.1",
+      btnText: "btn1",
+      styling: " rgb(233,224,203)",
+    },
+    {
+      name: "img2",
+      imgLink: img2,
+      description: "Image no.2",
+      btnText: "btn2",
+      styling: "rgb(207,191,220)",
+    },
+    {
+      name: "img3",
+      imgLink: img3,
+      description: "Image no.3",
+      btnText: "btn3",
+      styling: "rgb(224,199,175)",
+    },
+    {
+      name: "img4",
+      imgLink: img4,
+      description: "Image no.4",
+      btnText: "btn4",
+      styling: "rgb(170,212,214)",
+    },
   ]);
 
   return (
@@ -37,6 +61,7 @@ export default function ProductSlider() {
                 btnText={product.btnText}
                 description={product.description}
                 name={product.name}
+                color={product.styling}
               />
             );
           })}
