@@ -12,11 +12,12 @@ export default function ProductSlider() {
   // const [count, setCount] = useState(0);
   const [stock] = useState([
     {
-      name: "sam",
+      name: "Classic Grape",
       imgLink: img1,
       description: "Image no.1",
       btnText: "btn1",
       cardBgColor: " rgb(233,224,203)",
+      btnColor: "",
     },
     {
       name: "img2",
@@ -24,6 +25,7 @@ export default function ProductSlider() {
       description: "Image no.2",
       btnText: "btn2",
       cardBgColor: "rgb(207,191,220)",
+      btnColor: "",
     },
     {
       name: "img3",
@@ -31,6 +33,7 @@ export default function ProductSlider() {
       description: "Image no.3",
       btnText: "btn3",
       cardBgColor: "rgb(224,199,175)",
+      btnColor: "",
     },
     {
       name: "img4",
@@ -38,6 +41,7 @@ export default function ProductSlider() {
       description: "Image no.4",
       btnText: "btn4",
       cardBgColor: "rgb(170,212,214)",
+      btnColor: "",
     },
   ]);
 
@@ -61,7 +65,8 @@ export default function ProductSlider() {
                 btnText={product.btnText}
                 description={product.description}
                 name={product.name}
-                color={product.cardBgColor}
+                cardColor={product.cardBgColor}
+                btnColor={product.btnColor}
               />
             );
           })}

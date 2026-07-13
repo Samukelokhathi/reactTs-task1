@@ -7,7 +7,8 @@ type ItemCardProps = {
   description: string;
   imgLink: string;
   btnText: string;
-  color: string;
+  cardColor: string;
+  btnColor: string;
 };
 
 export default function ProductCard({
@@ -15,18 +16,25 @@ export default function ProductCard({
   imgLink,
   btnText,
   description,
-  color,
+  cardColor,
+  btnColor,
 }: ItemCardProps) {
   return (
-    <article className={cardStyle["item-card"]} style={{ background: color }}>
+    <article
+      className={cardStyle["item-card"]}
+      style={{ background: cardColor }}
+    >
       <img
         className={cardStyle["item-image"]}
         src={imgLink}
         alt={description}
       />
       <Text variant={"span"} children={name} />
-      <Button text={btnText} className={cardStyle["item-btn"]} />
-      {/* cardStyle={color} */}
+      <Button
+        text={btnText}
+        className={cardStyle["item-btn"]}
+        style={{ background: btnColor }}
+      />
     </article>
   );
 }
