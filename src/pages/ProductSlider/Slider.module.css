@@ -1,7 +1,17 @@
+.sliderSection{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 
 .cardContainer{
     display: flex;
     gap: 5px;
+    justify-content: center;
+  
 }
 
 .heading{
