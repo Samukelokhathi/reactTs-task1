@@ -3,6 +3,7 @@
     background-color: rgb(233,191,175);
     align-items: center;
     /* padding: 40px 15rem 40px 15rem; */
+    justify-content: center;
     gap: 15rem;
     
 }
