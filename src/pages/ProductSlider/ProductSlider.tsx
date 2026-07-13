@@ -20,8 +20,11 @@ export default function ProductSlider() {
   return (
     <section className={sliderCss.sliderSection}>
       <div className={sliderCss.heading}>
-        <Text variant={"h1"} children={"Product Slider Header"} />
-        <Text variant={"p"} children={"Hello world my name is sam"} />
+        <Text variant={"h1"} children={"Taste Your Favorite"} />
+        <Text
+          variant={"p"}
+          children={"Enjoy our take on the classic flavor you know and love"}
+        />
       </div>
 
       <div className={sliderCss.cardContainer}>

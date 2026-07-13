@@ -23,7 +23,7 @@ export default function ProductCard({
         alt={description}
       />
       <Text variant={"span"} children={name} />
-      <Button text={btnText} />
+      <Button text={btnText} className={cardStyle["item-btn"]} />
     </article>
   );
 }
