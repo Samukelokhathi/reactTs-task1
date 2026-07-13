@@ -17,7 +17,7 @@ export default function ProductSlider() {
       description: "Image no.1",
       btnText: "btn1",
       cardBgColor: " rgb(233,224,203)",
-      btnColor: "",
+      btnColor: "rgb(225,182,7)",
     },
     {
       name: "img2",
@@ -25,7 +25,7 @@ export default function ProductSlider() {
       description: "Image no.2",
       btnText: "btn2",
       cardBgColor: "rgb(207,191,220)",
-      btnColor: "",
+      btnColor: "rgb(146,68,198)",
     },
     {
       name: "img3",
@@ -33,7 +33,7 @@ export default function ProductSlider() {
       description: "Image no.3",
       btnText: "btn3",
       cardBgColor: "rgb(224,199,175)",
-      btnColor: "",
+      btnColor: "rgb(234,102,23)",
     },
     {
       name: "img4",
@@ -41,7 +41,7 @@ export default function ProductSlider() {
       description: "Image no.4",
       btnText: "btn4",
       cardBgColor: "rgb(170,212,214)",
-      btnColor: "",
+      btnColor: "rgb(254,56,72)",
     },
   ]);
 
