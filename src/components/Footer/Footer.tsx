@@ -1,6 +1,6 @@
 import footerStyle from "./Footer.module.css";
-import { Text } from "../Text/Text";
-import Button from "../Button/Button";
+import { Text } from "../../components/Text/Text";
+import Button from "../../components/Button/Button";
 
 export default function Footer() {
   return (

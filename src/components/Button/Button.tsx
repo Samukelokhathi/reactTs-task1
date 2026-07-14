@@ -1,5 +1,5 @@
 import React from "react";
-import btnCss from "./Button.module.css";
+import btnStyles from "./Button.module.css";
 
 interface BtnProps {
   text: string;
@@ -9,7 +9,10 @@ interface BtnProps {
 
 const Button: React.FC<BtnProps> = ({ text, style, className }) => {
   return (
-    <button className={`${btnCss.globalBtn} ${className || ""}`} style={style}>
+    <button
+      className={`${btnStyles.globalBtn} ${className || ""}`}
+      style={style}
+    >
       {text}
     </button>
   );
