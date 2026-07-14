@@ -1,4 +1,41 @@
-.footerContent{
+.footer-section{
     display: flex;
-    gap: 5rem;
+    justify-content: center;
+    margin-top: 3rem;
+    align-items: center;
+    
+
+}
+
+.footer-content{
+    background-color: aquamarine;
+    width: 60%;
+    display: flex;
+    
+
+}
+
+.sub-sec-1 {
+    width: 20;
+    background-color: rgb(255, 191, 13);
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.logo-text-div{
+    display: flex;
+}
+
+.sub-sec-2 {
+    width: 15.33;
+    background-color: rgb(174, 255, 127);
+}
+.sub-sec-3 {
+    width: 13.33;
+    background-color: rgb(146, 127, 255);
+}
+.sub-sec-4 {
+    width: 13.33;
+    background-color: rgb(255, 127, 138);
 }
