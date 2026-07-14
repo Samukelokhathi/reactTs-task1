@@ -21,7 +21,15 @@ export default function Footer() {
 
         <div className={footerStyle["sub-sec-2"]}>
           <Text variant={"h3"} children={"FLAVOURS"} />
-          <Text variant={"P"} children={"jfdhsgjkhsdkh"} />
+          <ul>
+            <li>Watermelon lime</li>
+            <li>Vintage Cole</li>
+            <li>Classic Root Beer</li>
+            <li>Doctor Goodwin</li>
+            <li>Banana Cream</li>
+            <li>Strawberry Vanilla</li>
+            <li>Ginger Lemon</li>
+          </ul>
         </div>
 
         <div className={footerStyle["sub-sec-2"]}>
@@ -33,7 +41,6 @@ export default function Footer() {
             <li>Privacy</li>
             <li>FAQ</li>
           </ul>
-          <Text variant={"P"} children={"jfdhsgjkhsdkh"} />
         </div>
 
         <div className={footerStyle["sub-sec-2"]}>
