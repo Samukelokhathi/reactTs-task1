@@ -10,10 +10,13 @@ export default function Footer() {
         <div className={footerStyle["sub-sec-1"]}>
           <div className={footerStyle["logo-text-div"]}>
             <img src={footerLogo} alt="" width={50} height={50} />
-            <Text variant={"h3"} children={"Stay connected"} />
+            <Text
+              variant="h3"
+              children={["Stay Connected With", <br />, "OLIPOP"]}
+            />
           </div>
-          <input type="text" />
-          <Button text={"Subscribe"} />
+          <input type="text" placeholder="Enter your email" />
+          <Button text={"SUBSCRIBE"} />
         </div>
 
         <div className={footerStyle["sub-sec-2"]}>
