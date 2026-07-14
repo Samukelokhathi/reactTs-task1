@@ -19,3 +19,8 @@
     display: flex;
     flex-direction: column;
 }
+
+.subContent button{
+    width: 45%;
+}
+
