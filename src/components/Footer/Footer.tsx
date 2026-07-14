@@ -4,6 +4,12 @@ import { Text } from "../../components/Text/Text";
 import Button from "../../components/Button/Button.tsx";
 import footerLogo from "./FooterAsset/Logo Image.jpg";
 
+import instagram from "./Icons/instagram.png";
+import facebook from "./Icons/communication.png";
+import x from "./Icons/twitter.png";
+import pinterest from "./Icons/pinterest.png";
+import linkedin from "./Icons/linkedin.png";
+
 export default function Footer() {
   return (
     <section className={footerStyle["footer-section"]}>
@@ -59,12 +65,22 @@ export default function Footer() {
             className={textStyle["variant-h3"]}
             children={"SOCIAL MEDIA"}
           />
-          <ul>
-            <li>i</li>
-            <li>f</li>
-            <li>t</li>
-            <li>l</li>
-            <li>p</li>
+          <ul className={footerStyle["social-icons"]}>
+            <li>
+              <img src={instagram} alt="instagram" width={20} height={20} />
+            </li>
+            <li>
+              <img src={facebook} alt="instagram" width={20} height={20} />
+            </li>
+            <li>
+              <img src={x} alt="instagram" width={20} height={20} />
+            </li>
+            <li>
+              <img src={linkedin} alt="instagram" width={20} height={20} />
+            </li>
+            <li>
+              <img src={pinterest} alt="instagram" width={20} height={20} />
+            </li>
           </ul>
         </div>
       </div>
