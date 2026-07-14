@@ -2,7 +2,7 @@
     background-color: rgb(250,241,210);
     display: flex;
     gap: 5rem;
-    height: 210px;
+    height: 220px;
     margin-bottom: 50px;
     margin-top: 4rem;
 }
@@ -37,13 +37,14 @@
 }
 
 .center-img-div{
-    margin-bottom: 100px;
-    /* height: 500px; */
-    padding-bottom: 10rem;
+   position: relative;
+   top: -70px;
+   /* margin-top: 80px; */
+   /* padding-bottom: 10rem; */
 }
 
 .centerImg{
     border-radius: 10px;
     box-shadow: 10px 10px 20px 0px rgba(0.5, 0.5, 0.5, 0.5);
-    margin-bottom: 10rem;
+   
 }
