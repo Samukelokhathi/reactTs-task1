@@ -1,3 +1,13 @@
-h1 {
-    color: rgb(23,67,65);
+.variant-h1 {
+    color: #0E453D;
+}
+.variant-h2 {
+    color: #0E453D;
+}
+.variant-h3 {
+    color: #0E453D;
+    font-weight: bold;
+}
+.variant-p {
+    color: #0E453D;
 }

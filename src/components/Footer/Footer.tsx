@@ -1,4 +1,5 @@
 import footerStyle from "./Footer.module.css";
+import textStyle from "../Text/Text.module.css";
 import { Text } from "../../components/Text/Text";
 import Button from "../../components/Button/Button.tsx";
 import footerLogo from "./FooterAsset/Logo Image.jpg";
@@ -12,6 +13,7 @@ export default function Footer() {
             <img src={footerLogo} alt="" width={50} height={50} />
             <Text
               variant="h3"
+              className={textStyle["variant-h3"]}
               children={["Stay Connected With", <br />, "OLIPOP"]}
             />
           </div>
@@ -20,7 +22,11 @@ export default function Footer() {
         </div>
 
         <div className={footerStyle["sub-sec-2"]}>
-          <Text variant={"h3"} children={"FLAVOURS"} />
+          <Text
+            variant={"h3"}
+            className={textStyle["variant-h3"]}
+            children={"FLAVOURS"}
+          />
           <ul>
             <li>Watermelon lime</li>
             <li>Vintage Cole</li>
@@ -33,7 +39,11 @@ export default function Footer() {
         </div>
 
         <div className={footerStyle["sub-sec-2"]}>
-          <Text variant={"h3"} children={"INFORMATION"} />
+          <Text
+            variant={"h3"}
+            className={textStyle["variant-h3"]}
+            children={"INFORMATION"}
+          />
           <ul>
             <li>About Us</li>
             <li>Contact Us</li>
@@ -44,7 +54,11 @@ export default function Footer() {
         </div>
 
         <div className={footerStyle["sub-sec-2"]}>
-          <Text variant={"h3"} children={"SOCIAL MEDIA"} />
+          <Text
+            variant={"h3"}
+            className={textStyle["variant-h3"]}
+            children={"SOCIAL MEDIA"}
+          />
           <ul>
             <li>i</li>
             <li>f</li>
