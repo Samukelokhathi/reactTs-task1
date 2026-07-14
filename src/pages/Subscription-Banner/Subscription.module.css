@@ -8,5 +8,14 @@
     height: 30% ;
     padding: 30px 3rem 30px 2rem;
     gap: 1rem;
+    border-radius: 8px;
 }
 
+.subContent{
+    width: 60%;
+    gap: 0.9rem;
+    height: 60%;
+    margin-bottom: auto;
+    display: flex;
+    flex-direction: column;
+}
