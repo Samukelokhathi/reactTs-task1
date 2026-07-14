@@ -22,7 +22,7 @@
 }
 
 .contentDiv{
-    width: 62%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
