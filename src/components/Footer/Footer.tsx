@@ -10,7 +10,7 @@ export default function Footer() {
         <div className={footerStyle["sub-sec-1"]}>
           <div className={footerStyle["logo-text-div"]}>
             <img src={footerLogo} alt="" width={50} height={50} />
-            <Text variant={"h1"} children={"Stay connected"} />
+            <Text variant={"h3"} children={"Stay connected"} />
           </div>
           <input type="text" />
           <Button text={"Subscribe"} />
@@ -21,7 +21,7 @@ export default function Footer() {
           <Text variant={"P"} children={"jfdhsgjkhsdkh"} />
         </div>
 
-        <div className={footerStyle["sub-sec-3"]}>
+        <div className={footerStyle["sub-sec-2"]}>
           <Text variant={"h3"} children={"INFORMATION"} />
           <ul>
             <li>About Us</li>
@@ -33,7 +33,7 @@ export default function Footer() {
           <Text variant={"P"} children={"jfdhsgjkhsdkh"} />
         </div>
 
-        <div className={footerStyle["sub-sec-4"]}>
+        <div className={footerStyle["sub-sec-2"]}>
           <Text variant={"h3"} children={"SOCIAL MEDIA"} />
           <ul>
             <li>i</li>
