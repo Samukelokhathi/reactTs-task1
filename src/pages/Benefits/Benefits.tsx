@@ -19,7 +19,7 @@ export default function Benefits() {
               className={benefitStyle.icon}
             />
           </div>
-          <Text variant={"p"} children={"Save 15% every order"} />
+          <Text variant={"p"} children={"Save 15% every order."} />
         </div>
 
         <div className={benefitStyle["icon-img-div"]}>
@@ -30,7 +30,7 @@ export default function Benefits() {
               className={benefitStyle.icon}
             />
           </div>
-          <Text variant={"p"} children={"Save 15% every order"} />
+          <Text variant={"p"} children={"Early access to new flavors."} />
         </div>
       </div>
 
@@ -38,8 +38,8 @@ export default function Benefits() {
         <img
           src={centerImg}
           alt="juice Image"
-          width={"250px"}
-          height={"300px"}
+          width={"210px"}
+          height={"280px"}
           className={benefitStyle.centerImg}
         />
       </div>
@@ -52,7 +52,7 @@ export default function Benefits() {
               className={benefitStyle.icon}
             />
           </div>
-          <Text variant={"p"} children={"Save 15% every order"} />
+          <Text variant={"p"} children={"Free shopping, Always."} />
         </div>
         <div className={benefitStyle["icon-img-div"]}>
           <div className={benefitStyle["icon-div"]}>
@@ -62,7 +62,7 @@ export default function Benefits() {
               className={benefitStyle.icon}
             />
           </div>
-          <Text variant={"p"} children={"Save 15% every order"} />
+          <Text variant={"p"} children={"Swap, skip or cancel any time."} />
         </div>
       </div>
     </section>
