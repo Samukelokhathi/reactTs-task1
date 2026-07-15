@@ -50,3 +50,15 @@
     padding: 3px 3px;
     font-size: 0.8rem;
 }
+
+.icon-style-img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    margin-left: -12px;
+    margin-right: -12px;
+    background-color: white;
+    border-radius: 13px;
+    position: relative;
+
+}

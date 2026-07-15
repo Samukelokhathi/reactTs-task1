@@ -62,7 +62,7 @@ export default function ProductSlider() {
         <img
           src={backIcon}
           alt="back-icon"
-          style={{ backgroundColor: "white" }}
+          className={sliderCss["icon-style-img"]}
         />
         <div className={sliderCss.cardContainer}>
           {stock &&
@@ -80,7 +80,11 @@ export default function ProductSlider() {
               );
             })}
         </div>
-        <img src={nextIcon} alt="next-icon" />
+        <img
+          src={nextIcon}
+          alt="next-icon"
+          className={sliderCss["icon-style-img"]}
+        />
       </div>
     </section>
   );
