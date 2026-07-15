@@ -38,8 +38,8 @@ export default function Benefits() {
         <img
           src={centerImg}
           alt="juice Image"
-          width={"210px"}
-          height={"280px"}
+          width={"300px"}
+          height={"300px"}
           className={benefitStyle.centerImg}
         />
       </div>

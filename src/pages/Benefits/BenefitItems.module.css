@@ -1,10 +1,12 @@
 .benefitSection {
     background-color: rgb(250,241,210);
     display: flex;
-    gap: 3rem;
+    gap: 10rem;
     height: 220px;
     margin-bottom: 50px;
     margin-top: 4rem;
+    /* width: 60%; */
+   
 }
 
 .icon-img-container{
@@ -38,7 +40,7 @@
 
 .center-img-div{
    position: relative;
-   top: -70px;
+   top: -80px;
    /* margin-top: 80px; */
    /* padding-bottom: 10rem; */
 }
