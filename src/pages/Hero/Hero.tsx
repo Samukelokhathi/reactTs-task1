@@ -1,5 +1,6 @@
 import Button from "../../components/Button/Button";
 import heroStyle from "./Hero.module.css";
+import heroImg from "../../assets/image-4.png";
 
 export default function Hero() {
   return (
@@ -15,7 +16,7 @@ export default function Hero() {
           </div>
         </div>
         <div className={heroStyle.imageContainer}>
-          <img src="src/assets/heroImage.jpg" alt="heroImage" />
+          <img src={heroImg} alt="heroImage" />
         </div>
       </section>
     </>
