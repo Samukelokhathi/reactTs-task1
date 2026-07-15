@@ -1,17 +1,13 @@
 // import { Text } from "../Text/Text";
 import navStyle from "./Navbar.module.css";
 import Button from "../Button/Button";
+import logo from "./Asset/download.png";
 
 export default function Navbar() {
   return (
     <nav>
       <div className={navStyle.logo}>
-        <img
-          src="src/assets/Logo Image.jpg"
-          alt="logo"
-          height={40}
-          width={40}
-        />
+        <img src={logo} alt="logo" height={40} width={40} />
       </div>
       <ul className={navStyle.navLinks}>
         <li>

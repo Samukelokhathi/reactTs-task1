@@ -2,7 +2,7 @@ import footerStyle from "./Footer.module.css";
 import textStyle from "../Text/Text.module.css";
 import { Text } from "../../components/Text/Text";
 import Button from "../../components/Button/Button.tsx";
-import footerLogo from "./FooterAsset/Logo Image.jpg";
+import footerLogo from "../Navbar/Asset/download.png";
 
 import instagram from "./Icons/instagram.png";
 import facebook from "./Icons/communication.png";
