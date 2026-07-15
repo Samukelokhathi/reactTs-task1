@@ -1,13 +1,14 @@
 import CardStyle from "../IngredientCard/IngredientCard.module.css";
 import { Text } from "../../components/Text/Text";
 import Button from "../../components/Button/Button";
+import image from "./Asset/fruity-fun-variety-pack-6g-olipop_main-image-v2_new_asset.avif";
 
 export default function IngredientCard() {
   return (
     <>
       <section className={CardStyle.cardSection}>
         <div className={CardStyle.cardImgContainer}>
-          <img src="src/assets/IngredientCardImage.jpg" alt="" />
+          <img src={image} alt="" />
         </div>
 
         <div className={CardStyle.contentDiv}>

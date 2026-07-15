@@ -3,7 +3,7 @@ import { Text } from "../../components/Text/Text";
 
 import dollarSignIcon from "./Benefit-Icons-image/coin.png";
 import drinkingIcon from "./Benefit-Icons-image/drinking.png";
-import centerImg from "./Benefit-Icons-image/center Image.jpg";
+import centerImg from "./Benefit-Icons-image/images.jpg";
 import lorryIcon from "./Benefit-Icons-image/lorry.png";
 import removeIcon from "./Benefit-Icons-image/remove.png";
 
@@ -38,7 +38,7 @@ export default function Benefits() {
         <img
           src={centerImg}
           alt="juice Image"
-          width={"300px"}
+          width={"310px"}
           height={"300px"}
           className={benefitStyle.centerImg}
         />
