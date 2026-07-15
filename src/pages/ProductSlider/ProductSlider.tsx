@@ -2,6 +2,7 @@ import { useState } from "react";
 import ProductCard from "./ProductCard";
 import sliderCss from "./Slider.module.css";
 import { Text } from "../../components/Text/Text";
+import textStyle from "../../components/Text/Text.module.css";
 
 import img1 from "../ProductSlider/Asset/image-1.avif";
 import img2 from "../ProductSlider/Asset/image-2.avif";
@@ -51,9 +52,14 @@ export default function ProductSlider() {
   return (
     <section className={sliderCss.sliderSection}>
       <div className={sliderCss.heading}>
-        <Text variant={"h1"} children={"Taste Your Favorite"} />
+        <Text
+          variant={"h1"}
+          className={textStyle["variant-h1"]}
+          children={"Taste Your Favorite"}
+        />
         <Text
           variant={"p"}
+          className={textStyle["variant-p"]}
           children={"Enjoy our take on the classic flavor you know and love"}
         />
       </div>
