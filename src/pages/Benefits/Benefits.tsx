@@ -1,5 +1,6 @@
 import benefitStyle from "./BenefitItems.module.css";
 import { Text } from "../../components/Text/Text";
+import textStyle from "../../components/Text/Text.module.css";
 
 import dollarSignIcon from "./Benefit-Icons-image/coin.png";
 import drinkingIcon from "./Benefit-Icons-image/drinking.png";
@@ -19,7 +20,11 @@ export default function Benefits() {
               className={benefitStyle.icon}
             />
           </div>
-          <Text variant={"p"} children={"Save 15% every order."} />
+          <Text
+            variant={"p"}
+            className={textStyle["variant-p"]}
+            children={"Save 15% every order."}
+          />
         </div>
 
         <div className={benefitStyle["icon-img-div"]}>
@@ -30,7 +35,11 @@ export default function Benefits() {
               className={benefitStyle.icon}
             />
           </div>
-          <Text variant={"p"} children={"Early access to new flavors."} />
+          <Text
+            variant={"p"}
+            className={textStyle["variant-p"]}
+            children={"Early access to new flavors."}
+          />
         </div>
       </div>
 
@@ -52,7 +61,11 @@ export default function Benefits() {
               className={benefitStyle.icon}
             />
           </div>
-          <Text variant={"p"} children={"Free shopping, Always."} />
+          <Text
+            variant={"p"}
+            className={textStyle["variant-p"]}
+            children={"Free shopping, Always."}
+          />
         </div>
         <div className={benefitStyle["icon-img-div"]}>
           <div className={benefitStyle["icon-div"]}>
@@ -62,7 +75,11 @@ export default function Benefits() {
               className={benefitStyle.icon}
             />
           </div>
-          <Text variant={"p"} children={"Swap, skip or cancel any time."} />
+          <Text
+            variant={"p"}
+            className={textStyle["variant-p"]}
+            children={"Swap, skip or cancel any time."}
+          />
         </div>
       </div>
     </section>
