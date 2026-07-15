@@ -15,7 +15,7 @@ export default function ProductSlider() {
   // const [count, setCount] = useState(0);
   const [stock] = useState([
     {
-      name: "Classic Grape",
+      name: "Ginger Lemon",
       imgLink: img1,
       description: "Image no.1",
       btnText: "$34.99",
@@ -23,7 +23,7 @@ export default function ProductSlider() {
       btnColor: "rgb(225,182,7)",
     },
     {
-      name: "Orange Squeeze",
+      name: "Classic Grape",
       imgLink: img2,
       description: "Image no.2",
       btnText: "$34.99",
@@ -31,7 +31,7 @@ export default function ProductSlider() {
       btnColor: "rgb(146,68,198)",
     },
     {
-      name: "Red Punch",
+      name: "Orange Squeeze",
       imgLink: img3,
       description: "Image no.3",
       btnText: "$34.99",
@@ -39,7 +39,7 @@ export default function ProductSlider() {
       btnColor: "rgb(234,102,23)",
     },
     {
-      name: "Classic Green",
+      name: "Tropical Punch",
       imgLink: img4,
       description: "Image no.4",
       btnText: "$34.99",

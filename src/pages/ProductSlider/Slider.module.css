@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    width: 70%;
 }
 
 .slider-container{
@@ -15,8 +16,11 @@
 
 .cardContainer{
     display: flex;
-    gap: 2rem;
+    gap: 6rem;
     justify-content: center;
+    /* align-items: center; */
+    height: 340px;
+    /* background-color: yellowgreen; */
   
 }
 
@@ -32,16 +36,17 @@
     border-radius: 20px  20px 12px 12px;
     background-color: wheat;
     padding: 12px;
-    width: 180px;
+    width: 210px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.3rem;
+    gap: 0.7rem;
+    justify-content: center;
 }
 
 .item-image{
     width: 180px;
-    height: 200px;
+    height: 210px;
     border-radius: 4px;
 }
 
