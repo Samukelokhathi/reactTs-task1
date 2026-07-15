@@ -3,10 +3,13 @@ import ProductCard from "./ProductCard";
 import sliderCss from "./Slider.module.css";
 import { Text } from "../../components/Text/Text";
 
-import img1 from "../../pages/ProductSlider/Asset/image-1.jpg";
-import img2 from "../../pages/ProductSlider/Asset/image-2.jpg";
-import img3 from "../../pages/ProductSlider/Asset/image-3.jpg";
-import img4 from "../../pages/ProductSlider/Asset/image-4.png";
+import img1 from "../ProductSlider/Asset/image-1.avif";
+import img2 from "../ProductSlider/Asset/image-2.avif";
+import img3 from "../ProductSlider/Asset/image-3.avif";
+import img4 from "../ProductSlider/Asset/image-4.avif";
+
+import nextIcon from "./Asset/arrow-right.png";
+import backIcon from "./Asset/left-arrow.png";
 
 export default function ProductSlider() {
   // const [count, setCount] = useState(0);
@@ -56,7 +59,11 @@ export default function ProductSlider() {
       </div>
 
       <div className={sliderCss["slider-container"]}>
-        <button> left </button>
+        <img
+          src={backIcon}
+          alt="back-icon"
+          style={{ backgroundColor: "white" }}
+        />
         <div className={sliderCss.cardContainer}>
           {stock &&
             stock.length > 0 &&
@@ -73,7 +80,7 @@ export default function ProductSlider() {
               );
             })}
         </div>
-        <button>right</button>
+        <img src={nextIcon} alt="next-icon" />
       </div>
     </section>
   );
