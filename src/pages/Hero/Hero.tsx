@@ -1,6 +1,6 @@
 import Button from "../../components/Button/Button";
 import heroStyle from "./Hero.module.css";
-import heroImg from "../../assets/image-4.png";
+import heroImg from "../../assets/image-4-copy.png";
 
 export default function Hero() {
   return (

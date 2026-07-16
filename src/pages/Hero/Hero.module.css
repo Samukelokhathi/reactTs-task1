@@ -1,34 +1,35 @@
-.heroSection{
+.heroSection {
     display: flex;
-    background-color: rgb(233,191,175);
+    flex-wrap: wrap;
+    background-color: rgb(233, 191, 175);
     align-items: center;
-    /* padding: 40px 15rem 40px 15rem; */
-    justify-content: center;
-    gap: 15rem;
-    
-    
+    justify-content: space-evenly;
+    gap: 5rem;
+
+
 }
 
 
-.heroContent{
+.heroContent {
     gap: 10;
-    
+
 }
 
-.heroContent h1{
+.heroContent h1 {
     margin-bottom: 1rem;
-    color: rgb(23,67,65);
+    color: rgb(23, 67, 65);
 }
 
 
-.imageContainer{
+.imageContainer {
     width: 350px;
     height: 350px;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
-    border: 1px solid rgb(27, 70,60);
+    border: 1px solid rgb(27, 70, 60);
     z-index: 0;
+    background-color: rgb(247, 116, 72);
 
 
 }
@@ -40,12 +41,13 @@
     height: 100%;
     object-fit: cover;
     border-radius: inherit;
-    /* position: absolute; */
     z-index: 0;
-    
+    transform: rotate(20deg);
+    filter: drop-shadow(-10px -10px 15px rgba(0, 0, 0, 0.9));
+
+
 }
 
 .heroBtn {
     background-color: rgb(22, 245, 171);
 }
-
