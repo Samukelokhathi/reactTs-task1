@@ -1,15 +1,14 @@
 .benefitSection {
-    background-color: rgb(250,241,210);
+    background-color: rgb(250, 241, 210);
     display: flex;
-    gap: 10rem;
     height: 220px;
-    margin-bottom: 50px;
-    margin-top: 4rem;
+    margin-top: 9rem;
     /* width: 60%; */
-   
+    /* flex-wrap: wrap; */
+
 }
 
-.icon-img-container{
+.icon-img-container {
     gap: 2rem;
     /* background-color: black; */
     height: 150px;
@@ -18,8 +17,8 @@
     justify-content: space-evenly
 }
 
-.icon-div{
-    background-color: rgb(250,198,68);
+.icon-div {
+    background-color: rgb(250, 198, 68);
     width: 50px;
     height: 50px;
     border-radius: 50px;
@@ -28,25 +27,26 @@
     justify-content: center;
 }
 
-.icon-img-div{
+.icon-img-div {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.icon{
+
+.icon {
     width: 30px;
     height: 30px;
 }
 
-.center-img-div{
-   position: relative;
-   top: -80px;
-   /* margin-top: 80px; */
-   /* padding-bottom: 10rem; */
+.center-img-div {
+    position: relative;
+    top: -80px;
+    /* margin-top: 80px; */
+    /* padding-bottom: 10rem; */
 }
 
-.centerImg{
+.centerImg {
     border-radius: 10px;
     box-shadow: 10px 10px 20px 0px rgba(0.5, 0.5, 0.5, 0.5);
-   
+
 }

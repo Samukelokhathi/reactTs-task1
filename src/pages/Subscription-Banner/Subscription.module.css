@@ -1,17 +1,17 @@
-.subSection{
+.subSection {
     display: flex;
     flex-direction: column;
-    background-color: rgb(247,213,229);
-    margin-top: 4rem;
+    background-color: rgb(247, 213, 229);
+    margin-top: 9rem;
     width: 60%;
     align-items: start;
-    height: 30% ;
+    height: 30%;
     padding: 30px 3rem 30px 2rem;
     gap: 1rem;
     border-radius: 8px;
 }
 
-.subContent{
+.subContent {
     width: 60%;
     gap: 0.9rem;
     height: 60%;
@@ -20,7 +20,6 @@
     flex-direction: column;
 }
 
-.subContent button{
+.subContent button {
     width: 45%;
 }
-
