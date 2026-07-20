@@ -73,3 +73,13 @@
 
     }
 }
+
+@media (width <=480px) {
+    .heroSection {
+        padding-inline: 1rem;
+    }
+
+    .imageContainer {
+        width: min(65cw, 220px);
+    }
+}
