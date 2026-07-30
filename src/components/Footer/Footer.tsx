@@ -16,7 +16,7 @@ export default function Footer() {
       <div className={footerStyle["footer-content"]}>
         <div className={footerStyle["sub-sec-1"]}>
           <div className={footerStyle["logo-text-div"]}>
-            <img src={footerLogo} alt="" width={50} height={50} />
+            <img src={footerLogo} alt="logo" className={footerStyle.logoImg} />
             <Text
               variant="h3"
               className={textStyle["variant-h3"]}
@@ -67,19 +67,19 @@ export default function Footer() {
           />
           <ul className={footerStyle["social-icons"]}>
             <li>
-              <img src={instagram} alt="instagram" width={20} height={20} />
+              <img src={instagram} alt="instagram" className={footerStyle.socialIcon} />
             </li>
             <li>
-              <img src={facebook} alt="instagram" width={20} height={20} />
+              <img src={facebook} alt="facebook" className={footerStyle.socialIcon} />
             </li>
             <li>
-              <img src={x} alt="instagram" width={20} height={20} />
+              <img src={x} alt="X" className={footerStyle.socialIcon} />
             </li>
             <li>
-              <img src={linkedin} alt="instagram" width={20} height={20} />
+              <img src={linkedin} alt="LinkedIn" className={footerStyle.socialIcon} />
             </li>
             <li>
-              <img src={pinterest} alt="instagram" width={20} height={20} />
+              <img src={pinterest} alt="Pinterest" className={footerStyle.socialIcon} />
             </li>
           </ul>
         </div>
