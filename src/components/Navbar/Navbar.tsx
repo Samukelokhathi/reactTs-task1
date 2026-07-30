@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav>
       <div className={navStyle.logo}>
-        <img src={logo} alt="logo" height={40} width={40} />
+        <img src={logo} alt="logo" />
       </div>
       <ul className={navStyle.navLinks}>
         <li>

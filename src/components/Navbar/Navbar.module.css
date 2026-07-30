@@ -6,8 +6,7 @@ nav {
     width: 100%;
     padding: 1rem 9%;
     background: white;
-    backdrop-filter: blur(15px);
-    top: 0;
+    inline-size: 100%;
 
     border-bottom: 1px solid rgb(139, 139, 139);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -19,17 +18,20 @@ nav {
 
 }
 
-
+.logo img {
+    inline-size: 40px;
+    block-size: 40px;
+    display: block;
+}
 
 .navLinks {
-    list-style: none;
     display: flex;
-    gap: 5rem;
-    margin: 1rem 4%;
+    align-items: center;
+    gap: 2.5rem;
+    list-style: none;
 }
 
 .navLinks li a {
-    position: relative;
     font-size: 1.15rem;
     font-weight: 600;
     text-decoration: none;
@@ -38,7 +40,7 @@ nav {
 }
 
 .navLinks li a:hover {
-    color: rgb(8, 160, 23);
+    color: rgb(97, 160, 8);
     text-shadow: 0 0 10px rgb(8, 160, 23);
 }
 
