@@ -5,6 +5,8 @@
     height: 220px;
     padding: 2rem;
     justify-content: space-evenly;
+    /* inline-size: min(100%, 70rem); */
+
 }
 
 .icon-img-container {
@@ -30,11 +32,12 @@
     display: flex;
     align-items: center;
     gap: 10px;
+
 }
 
 .icon {
-    width: 30px;
-    height: 30px;
+    inline-size: 30px;
+    block-size: 30px;
 }
 
 .center-img-div {
@@ -46,4 +49,34 @@
     border-radius: 10px;
     box-shadow: 10px 10px 20px 0px rgba(0.5, 0.5, 0.5, 0.5);
 
+}
+
+@media (max-width: 768px) {
+    .benefitSection {
+        flex-direction: column;
+        text-align: center;
+        padding: 9rem 1.5rem;
+        height: auto;
+        justify-content: center;
+        gap: 1.4rem;
+
+    }
+
+    .center-img-div {
+        transform: none;
+        order: -1;
+        margin-bottom: 1rem;
+    }
+
+    .icon-img-container {
+        align-items: center;
+    }
+
+    .icon-img-div {
+        justify-content: center;
+    }
+
+    .centerImg {
+        inline-size: 220px;
+    }
 }
