@@ -39,7 +39,7 @@ body,
 
 @media (max-width: 768px) {
     section {
-        padding-inline: 2rem;
+        padding-inline: 2, 1rem;
     }
 
 }
