@@ -1,24 +1,20 @@
 .cardSection {
-    margin-top: 4rem;
-    height: 300px;
+    margin-top: 4rem auto 0;
     padding: 0;
     gap: 3rem;
-    padding-left: 30px;
-    padding-right: 30px;
     display: flex;
     box-shadow: 8px 9px 9px -2px rgba(0, 0, 0, 0.3);
     width: 70%;
     justify-content: space-evenly;
     align-items: center;
+    min-height: 300px;
 
 }
 
 .cardImgContainer img {
-    height: 200px;
     width: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    aspect-ratio: 1;
+    object-fit: cover;
 
 }
 
