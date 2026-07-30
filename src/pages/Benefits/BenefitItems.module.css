@@ -3,9 +3,8 @@
     display: flex;
     margin-top: 9rem;
     height: 220px;
-    padding: 2rem;
+    /* padding: 2rem; */
     justify-content: space-evenly;
-    /* inline-size: min(100%, 70rem); */
 
 }
 

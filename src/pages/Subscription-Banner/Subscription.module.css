@@ -2,24 +2,22 @@
     display: flex;
     flex-direction: column;
     background-color: rgb(247, 213, 229);
-    margin-top: 9rem;
-    width: 60%;
-    align-items: start;
-    height: 30%;
-    padding: 30px 3rem 30px 2rem;
-    gap: 1rem;
+    margin-top: 6rem;
+    align-items: flex-start;
+    padding: 2rem;
     border-radius: 8px;
+    inline-size: min(100%, 70rem);
+
 }
 
 .subContent {
-    width: 60%;
     gap: 0.9rem;
-    height: 60%;
-    margin-bottom: auto;
     display: flex;
     flex-direction: column;
+    max-inline-size: 38rem;
 }
 
 .subContent button {
-    width: 45%;
+    inline-size: fit-content;
+    padding: 0.7rem 1.5rem;
 }
