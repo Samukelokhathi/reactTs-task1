@@ -21,3 +21,27 @@
     inline-size: fit-content;
     padding: 0.7rem 1.5rem;
 }
+
+@media (max-width:768px) {
+    .subSection {
+        padding: 2rem 1.5rem;
+        text-align: center;
+    }
+
+    .subContent {
+        max-inline-size: 100%;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .subSection {
+        margin-top: 4rem;
+        padding: 1.5rem 1rem;
+    }
+
+    .subContent button {
+        inline-size: 100%;
+        max-inline-size: 240px;
+    }
+}
