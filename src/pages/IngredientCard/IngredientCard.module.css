@@ -11,21 +11,26 @@
 
 }
 
+.cardImgContainer {
+    flex-shrink: 0;
+}
+
 .cardImgContainer img {
     width: 200px;
     aspect-ratio: 1;
     object-fit: cover;
+    display: block;
 
 }
 
 .contentDiv {
-    width: 60%;
     display: flex;
     flex-direction: column;
     gap: 0.8rem;
+    flex: 1;
 }
 
 .contentDiv button {
     padding: 0.5rem 1rem 0.5rem 1rem;
-    width: 9rem;
+    inline-size: 9rem;
 }
