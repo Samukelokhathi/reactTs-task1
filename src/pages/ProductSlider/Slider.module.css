@@ -50,23 +50,22 @@
 }
 
 .item-image {
-    width: 180px;
-    height: 210px;
-    border-radius: 4px;
+    inline-size: 180px;
+    aspect-ratio: 1;
+    object-fit: contain
 }
 
 .item-btn {
-    width: 70px;
-    padding: 3px 3px;
-    font-size: 0.8rem;
+    inline-size: 80px;
+    padding: .4rem;
+    font-size: .8rem;
 }
 
 .icon-style-img {
-    width: 30px;
-    height: 30px;
-    /* display: flex;
-    background-color: white;
-    border-radius: 13px;
-    position: relative; */
-
+    inline-size: 38px;
+    block-size: 35px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    flex-shrink: 0;
 }
