@@ -69,3 +69,49 @@
     cursor: pointer;
     flex-shrink: 0;
 }
+
+@media (max-width:1024px) {
+    .cardContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .item-card {
+        flex: 0 1 220px;
+    }
+
+    .icon-style-img {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .slider-container {
+        flex-direction: column;
+    }
+
+    .icon-style-img {
+        display: none;
+    }
+}
+
+@media (max-width:480px) {
+    .sliderSection {
+        gap: 1.5rem;
+    }
+
+    .item-card {
+        inline-size: 100%;
+        max-inline-size: 150px;
+    }
+
+    .icon-style-img {
+        display: none;
+    }
+
+    .item-image {
+        inline-size: 150px;
+    }
+
+
+}
