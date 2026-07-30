@@ -1,20 +1,19 @@
 .benefitSection {
     background-color: rgb(250, 241, 210);
     display: flex;
-    height: 220px;
     margin-top: 9rem;
-    /* width: 60%; */
-    /* flex-wrap: wrap; */
-
+    height: 220px;
+    padding: 2rem;
+    justify-content: space-evenly;
 }
 
 .icon-img-container {
-    gap: 2rem;
-    /* background-color: black; */
-    height: 150px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly
+    justify-content: center;
+    gap: 2rem;
+    flex: 1;
+    align-items: center;
 }
 
 .icon-div {
@@ -41,8 +40,6 @@
 .center-img-div {
     position: relative;
     top: -80px;
-    /* margin-top: 80px; */
-    /* padding-bottom: 10rem; */
 }
 
 .centerImg {

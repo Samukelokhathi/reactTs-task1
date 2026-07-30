@@ -38,7 +38,7 @@ export default function Benefits() {
           <Text
             variant={"p"}
             className={textStyle["variant-p"]}
-            children={"Early access to new flavors."}
+            children={"Save 15% every order."}
           />
         </div>
       </div>
@@ -64,7 +64,7 @@ export default function Benefits() {
           <Text
             variant={"p"}
             className={textStyle["variant-p"]}
-            children={"Free shopping, Always."}
+            children={"Save 15% every order."}
           />
         </div>
         <div className={benefitStyle["icon-img-div"]}>
@@ -78,7 +78,7 @@ export default function Benefits() {
           <Text
             variant={"p"}
             className={textStyle["variant-p"]}
-            children={"Swap, skip or cancel any time."}
+            children={"Save 15% every order."}
           />
         </div>
       </div>
