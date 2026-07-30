@@ -16,7 +16,7 @@ export default function Hero() {
           </div>
         </div>
         <div className={heroStyle.imageContainer}>
-          <img src={heroImg} alt="heroImage" />
+          <img src={heroImg} alt="heroImage" className={heroStyle.imageContainer} />
         </div>
       </section>
     </>
