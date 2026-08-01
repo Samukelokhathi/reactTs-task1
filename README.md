@@ -1,12 +1,6 @@
 ## 📸 Preview
 
 <img width="1891" height="871" alt="image" src="https://github.com/user-attachments/assets/3386260b-622a-493b-af16-e625fe42c9e8" />
-🔗 Live Site: https://react-ts-task1.vercel.app/
-<br/>
-🔗 GitHub Repository: https://github.com/Samukelokhathi/reactTs-task1
-
-
-
 
 # 🥤 Olipop Landing Page React-Task-1
 
@@ -74,4 +68,6 @@ During this project I practiced:
 - Managing assets and images
 
 
-
+## 🛠️ Documents Links
+- 🔗 Live Site: https://react-ts-task1.vercel.app/
+- 🔗 GitHub Repository: https://github.com/Samukelokhathi/reactTs-task1
