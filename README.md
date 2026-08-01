@@ -16,16 +16,6 @@ component-based development, responsive layouts, and clean UI design.
 
 ---
 
-## 🛠️ Technologies Used
-
-- React
-- TypeScript
-- Vite
-- CSS3
-- HTML5
-
----
-
 
 ## 🚀 Getting Started
 
@@ -58,6 +48,16 @@ The application will be available at:
 ```
 http://localhost:5173
 ```
+
+## 🛠️ Technologies Used
+
+- React
+- TypeScript
+- Vite
+- CSS3
+- HTML5
+
+---
 
 ---
 
