@@ -8,7 +8,7 @@
 
 
 
-# 🥤 Olipop Landing Page Clone
+# 🥤 Olipop Landing Page React-Task-1
 
 A modern and responsive landing page inspired by the Olipop website. 
 This project was built using to practice 
