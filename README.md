@@ -42,6 +42,7 @@ The application will be available at:
 ```
 http://localhost:5173
 ```
+---
 
 ## 🛠️ Technologies Used
 
@@ -53,7 +54,6 @@ http://localhost:5173
 
 ---
 
----
 
 ## 📚 What I Learned
 
@@ -66,6 +66,7 @@ During this project I practiced:
 - Working with props and component composition
 - Improving UI design and spacing
 - Managing assets and images
+---
 
 
 ## 🛠️ Documents Links
