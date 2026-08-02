@@ -10,7 +10,6 @@ component-based development, responsive layouts, and clean UI design.
 
 ---
 
-
 ## 🚀 Getting Started
 
 ### Clone the repository
