@@ -1,6 +1,7 @@
 ## 📸 Preview
 
-<img width="1891" height="871" alt="image" src="https://github.com/user-attachments/assets/3386260b-622a-493b-af16-e625fe42c9e8" />
+<img width="1891" height="871" alt="image" src="https://socialify.git.ci/Samukelokhathi/reactTs-task1/image?language=1&owner=1&name=1&stargazers=1&theme=Light" />
+
 
 # 🥤 Olipop Landing Page React-Task-1
 
